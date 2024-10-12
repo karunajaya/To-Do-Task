@@ -1,0 +1,128 @@
+/* General styles */
+.app {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.filter {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.filter label {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.filter-select {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+/* Add Todo Form Styles */
+.add-todo {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.add-todo input {
+  padding: 10px;
+  width: 180px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.add-todo button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-todo button:hover {
+  background-color: #218838;
+}
+
+/* Todo Cards List */
+.todo-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Todo Card Styles */
+.todo-card {
+  background-color: #d4edda;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: left;
+  font-family: Arial, sans-serif;
+}
+
+.todo-card h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.todo-card p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.todo-card .status {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.todo-card .status select {
+  padding: 5px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.todo-card button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  width: 100px;
+  margin-right: 10px;
+}
+
+.todo-card .edit-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.todo-card .delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.todo-card button:hover {
+  opacity: 0.8;
+}
+
